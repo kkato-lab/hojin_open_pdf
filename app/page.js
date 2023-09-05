@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   const open_pdf_link = () => {
     const url =
-      "https://drive.google.com/file/d/1W7haAlLqCj2OTBjK5F8b7hBPi4KGBiHt/view?usp=drive_link";
+      "https://drive.google.com/uc?id=1W7haAlLqCj2OTBjK5F8b7hBPi4KGBiHt";
     if ($_isAndroid()) {
       console.log("is Android");
       const a = document.createElement("a");
